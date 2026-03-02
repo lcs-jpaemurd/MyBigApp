@@ -11,7 +11,11 @@ import SwiftUI
 struct MyBigAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomePageView()
         }
     }
+}
+
+#Preview {
+    HomePageView()
 }
