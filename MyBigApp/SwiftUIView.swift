@@ -19,13 +19,56 @@ struct SwiftUIView: View {
                 Spacer()
             }
             HStack{
-                Text("$95 000 000")
-                    .font(.system(size: 20.0, weight: .semibold, design: .default)) //make this blue
+                Text("$95,000.00")
+                    .font(.system(size: 23.0, weight: .semibold, design: .default)) //make this blue
                     .padding(26)
                 Spacer()
             }
             
-            
+            HStack{
+                VStack{
+                    Text("Specifications")
+                        .font(.system(size: 15.0, weight: .semibold, design: .default))
+                    HStack{
+                        Text("Year")
+                            .font(.system(size: 12.0, weight: .light, design: .default))
+                        Text("2022")
+                            .font(.system(size: 12.0, weight: .bold, design: .default))
+                    }
+                    HStack{
+                        Text("Year")
+                            .font(.system(size: 12.0, weight: .light, design: .default))
+                        Text("2022")
+                            .font(.system(size: 12.0, weight: .bold, design: .default))
+                    }
+                    HStack{
+                        Text("Year")
+                            .font(.system(size: 12.0, weight: .light, design: .default))
+                        Text("2022")
+                            .font(.system(size: 12.0, weight: .bold, design: .default))
+                    }
+                    HStack{
+                        Text("Year")
+                            .font(.system(size: 12.0, weight: .light, design: .default))
+                        Text("2022")
+                            .font(.system(size: 12.0, weight: .bold, design: .default))
+                    }
+                    HStack{
+                        Text("Year")
+                            .font(.system(size: 12.0, weight: .light, design: .default))
+                        Text("2022")
+                            .font(.system(size: 12.0, weight: .bold, design: .default))
+                    }
+                }
+                .padding(20)
+                Spacer()
+            }
+            HStack{
+                Text("Description")
+                Spacer()
+            }
+            Text("sjkdhfrvgygeryfgqigiyfgiugleiufgaudlgcigeiudlfsadlkrhihrgdhgaygrfgiagdydkveirgbbkfagwliufkjehiahhfasfgdvierbabxvxbcjvbjhsvfwefyierfdgfgsgfhsyevevfysyjgsdgsadfh gsfi ifiegit igriifgaslgsbcvxcdfjrhtiuyfegjhagjbdjhfkashdxchjzdvbr m,qbwegiuahfjosgaudjfkjfiirjrkjdijihruhuntbnbshgdfbibbnaohiulhlohiefoheoiyiqoqerohhiihihnlkjggruhquahlzbdmdvvwhfstdtdsvghfbjh nrtlkmhmosndxubucwbhjr gkflgbmshdigburbajvfczgtvygfkfgyijydgrhgfiuehriiseigigsaeiyfgaigfages")
+                .fontWeight(.ultraLight)
         }
     }
 }
@@ -33,3 +76,6 @@ struct SwiftUIView: View {
 #Preview {
     SwiftUIView()
 }
+//.font(.system(size: 12.0, weight: .regular, design: .default))
+
+//.font(.system(size: 12.0, weight: .light, design: .default))
